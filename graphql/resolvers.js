@@ -5,7 +5,7 @@ import { Autenticacion_resolvers } from "./auth/resolvers.js";
 import { Avance_Resolvers } from "../models/avance/controlers.js";
 
 const resolvers = [
-    Autenticacion_resolver,
+    Autenticacion_resolvers,
     Users_Controllers,
     Resolvers_Projects,
     Inscriptions_Resolvers,
